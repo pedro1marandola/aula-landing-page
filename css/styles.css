@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;/*fonte do texto no body*/
+    margin: 0;/*remove a mergem do body*/
+    padding: 0;/*remove o preenchimento do body*/
+    background-color: #3c3c3c;
+}
+
+header{
+    text-align: center;/*alinha a porra toda no centro*/
+    padding: 20px;/*adiciona 20px de preenchimento ao body*/
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    font-size: 39px;/*Define o tamanho da fonte*/
+    color: blueviolet;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.socialmedia img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+p{
+    color: rgb(204, 202, 202);
+}
+
+p:hover{
+    color: gray;
+}
+
+main{
+    background-color: #141414;
+    color: white;
+}
+
+div.product{
+    text-align: center;
+    max-width: 300px;/*largura max da borda*/
+    padding: 20px;
+    border: 1px solid blueviolet;/*define a largura e cor da borda*/
+    border-radius: 25px;/*arredonda os cantos da borda*/
+    background-color: black;
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;/*permite que os itens quebrem para a prox linha*/
+    gap: 20px;/*define o espacamento entre os itens*/
+    background-color: #3c3c3c;
+    padding: 20px;
+    justify-content: center;
+}
+
+img.produto{
+    max-width: 300px;
+    height: 300px;
+    background-color: purple;
+    border-radius: 30px;
+}
+button{
+    color: white;
+    background-color: purple;
+    border-radius: 30px;
+    width: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button:hover{
+    color: blueviolet;
+}
+
+#Beneficios{
+    text-align: center;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+h2.titulo2{
+    color: white;
+    text-align: center;
+}
+
+.textoD{
+    margin-bottom: 5px;
+}
+
+#Depoimentos{
+    text-align: center;
+    padding: 3px;
+    background-color: #3c3c3c;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0;
+}
+
+.Contato{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+form input, form textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+}
